@@ -44,6 +44,7 @@ body {
     height: auto;
     padding-top: 60px;
     padding-bottom: 60px;
+    gap: 10px;
 }
 
 .singup1Container_text {
@@ -81,7 +82,7 @@ body {
     background: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
-    padding: 5px 15px;
+    padding: 10px 10px;
     border-style: hidden;
     border-radius: 5px;
     transition-duration: 0.4s;
@@ -91,6 +92,7 @@ body {
 .singup1Container button:hover {
     background: #F9FAF8;
     color: #3882F6;
+    transform: translateY(-7px);
 }
 
 
@@ -114,7 +116,7 @@ body {
     display: flex;
     height: auto;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     flex-direction: column;  
 }
 
@@ -138,9 +140,9 @@ body {
     display: flex;
     width: 180px;;
     flex-direction: column;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px;  
 }
+
 .wallpaperContainer img {
     object-fit: cover;
     width:180px;
@@ -152,7 +154,7 @@ body {
     display: flex;
     flex-direction: column;
     height: auto;
-    padding: 20px 20vw;
+    padding: 50px 20vw;
     background: #E5E7EB;
     justify-content: center;
     align-items: center;
@@ -174,10 +176,78 @@ body {
 
 .signup2Container {
     display: flex;
-    height: 150px;
-    padding: 0 10vw;
-    color: #3882F6;
+    height: 200px;
+    background: #F9FAF8;
     justify-content: center; 
+    
+}
+
+.blueContainer {
+    display: flex;
+    flex: 1;
+    background: #3882F6;
+    color: #F9FAF8;
+    margin: 40px 15vw;
+    border-radius: 20px;
+    justify-content: space-between;
+    gap: 10px;
+    
+    
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    
+}
+
+.line1 {
+   display: flex;
+   flex: 1;
+   
+   font-weight: bold;
+   font-size: 18px;
+   align-items: flex-end;
+    
+       
+}
+
+.line2 {
+    display: flex;
+    flex: 1;
+    
+    
+    align-items: flex-start;
+       
+}
+
+.button {
+    display: flex; 
+    padding-right: 5vw;
+    align-self: center;
+    justify-content: flex-end;
+    flex: 1;
+   
+
+}
+
+.blueContainer button {
+    width: fit-content;
+    padding: 10px 10px;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    border-style: solid;
+    transition-duration: 0.4s;
+}
+
+.blueContainer button:hover {
+    background: #F9FAF8;
+    color: #3882F6;
+    transform: translateY(-7px);
 }
 
 .footer {
