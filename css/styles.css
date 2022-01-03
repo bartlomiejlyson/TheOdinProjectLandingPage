@@ -5,6 +5,14 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 }
 
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+    .grow:hover { 
+    transform: scale(1.05); 
+    }
+
 .header, .singup1Container, .footer, .content, .quoteContainer {
     padding: 0 13vw;
 }
@@ -18,7 +26,7 @@ body {
     align-items: center;
     height: auto;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .header a {
@@ -26,6 +34,12 @@ body {
     color: #E5E7EB;
     margin: 0 10px;
     font-size: 18px;
+}
+
+.header a:hover {
+    color:black;
+    background-color: #E5E7EB;
+    transition-duration: 0.4s;
 }
 
 .logo {
@@ -42,7 +56,7 @@ body {
 .singup1Container { 
     display: flex;
     height: auto;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 60px;
     gap: 10px;
 }
@@ -115,8 +129,8 @@ body {
 .content {
     display: flex;
     height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
     flex-direction: column;  
 }
 
@@ -154,7 +168,7 @@ body {
     display: flex;
     flex-direction: column;
     height: auto;
-    padding: 50px 20vw;
+    padding: 80px 20vw;
     background: #E5E7EB;
     justify-content: center;
     align-items: center;
@@ -179,6 +193,8 @@ body {
     height: 200px;
     background: #F9FAF8;
     justify-content: center; 
+    padding-top: 40px;
+    padding-bottom: 40px;
     
 }
 
@@ -187,7 +203,7 @@ body {
     flex: 1;
     background: #3882F6;
     color: #F9FAF8;
-    margin: 40px 15vw;
+    margin: 40px 25vw;
     border-radius: 20px;
     justify-content: space-between;
     gap: 10px;
